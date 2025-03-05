@@ -1,0 +1,51 @@
+{
+    "eula": "",
+    "vendor": "SAP",
+    "license": "",
+    "id": "com.sap.sac.sample.enhanced_table",
+    "version": "1.0.0",
+    "name": "Enhanced Table Widget with Sentiment Analysis",
+    "newInstancePrefix": "EnhancedTable",
+    "description": "A sample custom widget Table that performs sentiment analysis via Google Gemini API",
+    "webcomponents": [
+      {
+        "kind": "main",
+        "tag": "com-sap-sample-enhanced_table",
+        "url": "/enhancedTable.js",
+        "integrity": "",
+        "ignoreIntegrity": true
+      }
+    ],
+    "properties": {
+      "width": {
+        "type": "integer",
+        "default": 600
+      },
+      "height": {
+        "type": "integer",
+        "default": 420
+      },
+      "apiKey": {
+        "type": "string",
+        "default": "AIzaSyBKnlBOLtr1a2_J6DhFtgfiC467tK6ioHg"
+      }
+    },
+    "methods": {},
+    "events": {},
+    "dataBindings": {
+      "dataBinding": {
+        "feeds": [
+          {
+            "id": "dimension",
+            "description": "Review Text Dimension",
+            "type": "dimension"
+          },
+          {
+            "id": "measure",
+            "description": "Measure",
+            "type": "mainStructureMember"
+          }
+        ]
+      }
+    }
+  }
