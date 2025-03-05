@@ -11,7 +11,7 @@
       {
         "kind": "main",
         "tag": "com-sap-sample-enhanced_table",
-        "url": "/enhancedTable.js",
+        "url": "https://lkannan.github.io/enhancedTable/enhancedTable.js",
         "integrity": "",
         "ignoreIntegrity": true
       }
