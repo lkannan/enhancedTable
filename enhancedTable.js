@@ -76,8 +76,8 @@
             const payload = {
                 contents: [{
                     parts: [{
-                        text: `Analyze the sentiment of this review and respond with either 'Positive',
-                              'Negative', or 'Neutral': "${reviewText}"`
+                        text: `Only return one of these three values ('Positive', 'Negative', 'Neutral') as result and don't give any other text. Analyze the sentiment of this review and respond with either 'Positive',
+                              'Negative', in case of no sentiments then return 'Neutral': "${reviewText}"`
                     }]
                 }],
                 generationConfig: {
